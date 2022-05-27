@@ -4,7 +4,7 @@ on:
     inputs:
       previous:
         description: '是否打卡往期课程(true/false)'
-        required: true
+        required: false
         default: 'false'
   schedule:
     # UTC4:00(北京UTC+8 12:00点)触发任务
